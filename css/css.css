@@ -1,13 +1,29 @@
 h1   {  font-size: 18px;}
 img  {  border: 0;}
 table{  border-collapse: collapse;}
+header{ height: 70px; width: 99%;}
+
+nav {
+  display: inline-block;
+  height: 400px;
+  vertical-align: top;
+  width: 14%;
+}
+
+#content {
+  display: inline-block;
+  margin-left: 10%;
+  vertical-align: top;
+  width: 75%;
+}
 
 a:hover.link {
  color: #004400;
 }
 
-a.sidebarlink, a:visited.sidebarlink {
+nav a, nav a:visited {
  color: #111;
+ display: block;
  font-family: 'Lucida Grande',Tahoma,Verdana,Helvetica,sans-serif;
  font-size: 11px;
  font-weight: normal;
@@ -16,7 +32,7 @@ a.sidebarlink, a:visited.sidebarlink {
  margin-right: 8px;
 }
 
-a:hover.sidebarlink {
+nav a:hover {
  color: #009999;
 }
 
@@ -43,19 +59,12 @@ a:hover.sidebarlink {
  padding-top:    2px;
 }
 
-.sidebartitle{
- color: #111;
- font-family: 'Lucida Grande',Tahoma,Verdana,Helvetica,sans-serif;
- font-size: 14px;
- font-weight: normal;
-}
-
 .sumOfDigits thead{font-weight: bold;}
 .sumOfDigits td   {padding:2px;}
 
 .table td{border:1px solid #000}
 
-.text {
+body, .text {
  color: #000;
  font-family: 'Lucida Grande',Tahoma,Verdana,Helvetica,sans-serif;
  font-size: 12px;
